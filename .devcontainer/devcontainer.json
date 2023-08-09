@@ -1,0 +1,7 @@
+{
+    "name": "Svelte App Dev Container",
+    "image": "node:14",
+    "forwardPorts": [8080],
+    "postCreateCommand": "npm install",
+    "workspaceFolder": "/workspace"
+}
